@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Package } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "../../assets/Logo2.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
