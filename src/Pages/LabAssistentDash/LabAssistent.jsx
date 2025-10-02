@@ -17,7 +17,7 @@ import {
   HelpCircle,
   Database,
 } from "lucide-react";
-import logo2 from "/logo2.png";
+import logo2 from "./logo2.png";
 
 const SkeletonLoader = () => {
   return (
