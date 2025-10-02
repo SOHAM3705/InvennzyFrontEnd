@@ -3,10 +3,11 @@ import { useGLTF } from "@react-three/drei";
 import { useRef, useEffect } from "react";
 import * as THREE from "three";
 import React from "react";
+import Monitor from "/logoinvennzy.glb";
 
 export function Hero3DModel() {
   const group = useRef();
-  const { scene } = useGLTF("logoinvennzy.glb");
+  const { scene } = useGLTF({ Monitor });
 
   const monitorRef = useRef();
 
